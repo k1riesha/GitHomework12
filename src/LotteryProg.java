@@ -8,14 +8,14 @@ public class LotteryProg {
 
         int[] array1 = new int[7];
         for (int index = 0; index < array1.length; index++) {
-            array1[index] = random.nextInt(9);
+            array1[index] = random.nextInt(10);
         }
         Arrays.sort(array1);
 
 
         int[] array2 = new int[7];
         for (int index = 0; index < array2.length; index++) {
-            array2[index] = random.nextInt(9);
+            array2[index] = random.nextInt(10);
         }
         Arrays.sort(array2);
 
